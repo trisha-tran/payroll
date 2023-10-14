@@ -18,7 +18,9 @@ struct payroll pay_recs[MAX_PAY_RECS_NO];
 The number of actual payroll records is stored in the following external variable: 
 size_t pay_recs_no;
 
-Your responsibility is to develop a function that prints out the payroll records of employees of a certain department, the number of employees in the department and their aggregated monthly salary (sum of monthly salaries of the department’s employees). The output should be made in the following format:
+Your responsibility is to develop a function that prints out the payroll records of employees of a certain department, 
+the number of employees in the department and their aggregated monthly salary (sum of monthly salaries of the department’s employees).
+The output should be made in the following format:
 
 Employees of the department_name Department:
 Last Name  First Name   Date of Birth   Monthly Salary
@@ -35,4 +37,6 @@ This is the function’s signature:
 
 void PrintDeptPayrollRecords(char* dept_name);
 
-In the main() function, please initialize 10 or more payroll records in the payroll records array pay_recs[], and call the abovementioned function with the name of an existing department, and then with non-existing one, and check that a correct output is generated.
+In the main() function, please initialize 10 or more payroll records in the payroll records array pay_recs[],
+and call the abovementioned function with the name of an existing department,
+and then with non-existing one, and check that a correct output is generated.
